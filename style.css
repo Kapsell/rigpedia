@@ -1,0 +1,76 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box; 
+}
+body {
+	font-family: monospace;
+	color: white;
+	background-color: black;
+	font-size: 16px;
+	height: 100%;
+}
+a {
+	color:green;
+}
+.subtitle {
+	color:chartreuse;
+}
+main {
+	margin: 2rem;
+	display: block;
+	height: 100%;
+}
+#wiki-article {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+#content {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+}
+.aside {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: black;
+	flex: 1;
+	
+}
+.aside-title{
+		padding-right: 2rem;
+		padding-left: 2rem;
+		background-color: darkseagreen;
+		width: 100%;
+	}
+	.aside-title h2 {
+		margin: 0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+.aside-subtitle {
+	background-color: black;
+	color:chartreuse;
+	width: 100%;
+}
+.aside-bio {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.aside-bio > * {
+	font-size: 1rem;
+}
+.aside-bio-item {
+	display: flex;
+}
+.aside-bio-item-name {
+}
+.aside-bio-item-content{
+	text-align: center;
+}
+.aside-bio-item-content p {
+	padding: 1rem;
+}
